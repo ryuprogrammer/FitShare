@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  FitShare
-//
-//  Created by トム・クルーズ on 2023/11/15.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,6 +7,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.title)
         }
         .padding()
     }
